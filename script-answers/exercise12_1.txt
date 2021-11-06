@@ -1,0 +1,13 @@
+Script started on 2021-11-06 23:50:48+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="99" LINES="21"]
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercisesroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises# curl http://helsinki.fi [K
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.helsinki.fi/">here</a>.</p>
+</body></html>
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercisesroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises# exit
+exit
+
+Script done on 2021-11-06 23:51:17+02:00 [COMMAND_EXIT_CODE="0"]
