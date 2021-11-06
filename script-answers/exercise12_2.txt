@@ -1,0 +1,93 @@
+Script started on 2021-11-07 00:02:47+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="99" LINES="21"]
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercisesroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises# docker container run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K
+7b1a6ab2e44d: Pulling fs layer 
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  298.2kB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  1.768MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  3.238MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  4.709MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  6.175MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  7.355MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  8.534MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading     10MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  11.19MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  12.65MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  13.83MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading     15MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  16.47MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  17.93MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading   19.4MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  20.87MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  22.34MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  23.52MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  24.99MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  26.47MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Downloading  27.65MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Verifying Checksum 
+[1B[1A[2K
+7b1a6ab2e44d: Download complete 
+[1B[1A[2K
+7b1a6ab2e44d: Extracting  294.9kB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Extracting  3.244MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Extracting  6.193MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Extracting  9.142MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Extracting   11.8MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Extracting  15.34MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Extracting  19.17MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Extracting  22.41MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Extracting  24.18MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Extracting  27.13MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Extracting  28.57MB/28.57MB
+[1B[1A[2K
+7b1a6ab2e44d: Pull complete 
+[1BDigest: sha256:626ffe58f6e7566e00254b638eb7e0f3b11d4da9675088f4781a50ae288f3322
+Status: Downloaded newer image for ubuntu:latest
+]0;root@9116d9115199: /root@9116d9115199:/# 
+[K]0;root@9116d9115199: /root@9116d9115199:/# mkdir /usr/src/app
+]0;root@9116d9115199: /root@9116d9115199:/# cd usr/src/app/
+]0;root@9116d9115199: /usr/src/approot@9116d9115199:/usr/src/app# touch o index.js
+]0;root@9116d9115199: /usr/src/approot@9116d9115199:/usr/src/app# 
+(arg: 1) [K6) 
+]0;root@9116d9115199: /usr/src/approot@9116d9115199:/usr/src/app# ssssss      ls
+index.js
+]0;root@9116d9115199: /usr/src/approot@9116d9115199:/usr/src/app# exit
+exit
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercisesroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises# exit
+exit
+
+Script done on 2021-11-07 00:04:24+02:00 [COMMAND_EXIT_CODE="0"]
