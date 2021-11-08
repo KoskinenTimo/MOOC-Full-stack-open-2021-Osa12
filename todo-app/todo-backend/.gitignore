@@ -63,4 +63,8 @@ typings/
 # stored DB data
 /mongo_data
 
+# script recordings
 typescipt
+
+# cache data
+/redis_data 
