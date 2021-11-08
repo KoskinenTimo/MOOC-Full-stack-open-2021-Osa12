@@ -1,0 +1,75 @@
+Script started on 2021-11-08 15:21:34+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="99" LINES="21"]
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises/todo-app/todo-backendroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises/todo-app/todo-backend# docker container start [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kstart 
+.dockerignore           app.js                  mongo/                  routes/
+.env                    bin/                    node_modules/           typescript
+.gitignore              db/                     package-lock.json       util/
+Dockerfile              docker-compose.dev.yml  package.json            
+README.md               docker-compose.yml      redis/                  
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises/todo-app/todo-backendroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises/todo-app/todo-backend# docker start 
+.dockerignore           app.js                  mongo/                  routes/
+.env                    bin/                    node_modules/           typescript
+.gitignore              db/                     package-lock.json       util/
+Dockerfile              docker-compose.dev.yml  package.json            
+README.md               docker-compose.yml      redis/                  
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises/todo-app/todo-backendroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises/todo-app/todo-backend# docker start [K[K[K[K[K[K[K[Kr container start mongo/[K[K[K[K[K[Ktodokill todo-backend-mongo-1[7Pcd todo-app/todo-backend/docker-compose -f docker-compose.dev.yml updown --volumesup[Kdown --volumesup[Kdown --volumesup[Kdown --volumesup[K
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pcd todo-app/todo-backend/docker kill todo-backend-mongo-1[5Pcontainer start todo-backend-mongo-1
+todo-backend-mongo-1
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises/todo-app/todo-backendroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises/todo-app/todo-backend# dc[Kocker exec -it todo-backend-mongo-1 bash
+]0;root@7c469a87ea51: /root@7c469a87ea51:/# 
+[K]0;root@7c469a87ea51: /root@7c469a87ea51:/# mongo -u admin p -    p p@a ssw0rd
+MongoDB shell version v5.0.3
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("e7338a80-3c81-4271-bcbf-63fef368daf0") }
+MongoDB server version: 5.0.3
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+We recommend you begin using "mongosh".
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting: 
+        2021-11-08T13:22:42.304+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+        2021-11-08T13:22:42.926+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> us[3G[Ju[4G[3G[J[3Gshw[3G[Jsh[5Gow dbs[3G[Jshow dbs[11G
+admin         0.000GB
+config        0.000GB
+local         0.000GB
+the_database  0.000GB
+> use the_database[3G[Juse the_database[19G
+switched to db the_database
+> show collections[3G[Jshow collections[19G
+todos
+> db.todos.insertOne({ text:"this todo was added with mongov[3G[Jdb.todos.insertOne({ text:"this todo was added with mongo[60G CLI"})[3G[Jdb.todos.insertOne({ text:"this todo was added with mongo CLI"})[67G
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("618925375e397bbace0709a0")
+}
+> db.todos.find({})[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("61884b726547d134a63593e1"), "text" : "Write code", "done" : true }
+{ "_id" : ObjectId("61884b726547d134a63593e2"), "text" : "Learn about containers", "done" : false }
+{ "_id" : ObjectId("61885283b800f748f4f1d30f"), "text" : "test", "done" : true, "__v" : 0 }
+{ "_id" : ObjectId("61892134ea24aebec1c5d421"), "text" : "added with mongo CLI" }
+{ "_id" : ObjectId("618925375e397bbace0709a0"), "text" : "this todo was added with mongo CLI" }
+> exit[3G[Jexit[7G
+bye
+]0;root@7c469a87ea51: /root@7c469a87ea51:/# [Kexit
+exit
+]0;root@DESKTOP-6T9SM7U: /mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises/todo-app/todo-backendroot@DESKTOP-6T9SM7U:/mnt/c/Users/ac_na/Documents/GitHub/MOOC-Full-stack-open-2021-Osa12/containers-exercises/todo-app/todo-backend# exit
+exit
+
+Script done on 2021-11-08 15:25:57+02:00 [COMMAND_EXIT_CODE="0"]
