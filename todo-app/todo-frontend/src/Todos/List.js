@@ -14,9 +14,10 @@ const TodoList = ({ todos, deleteTodo, completeTodo }) => {
     <>
       {todos.map(todo =>
         <Todo 
+          key={todo.id}
           todo={todo}
           onClickDelete={onClickDelete}
-          onClickComplete={onClickComplete}
+          onClickComplete={onClickComplete}          
         />
       ).reduce((acc, cur) => [...acc, <hr />, cur], [])}
     </>

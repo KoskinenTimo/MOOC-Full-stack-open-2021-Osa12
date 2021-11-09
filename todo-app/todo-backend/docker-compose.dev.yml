@@ -12,7 +12,7 @@ services:
       - MONGO_INITDB_DATABASE=the_database
     volumes: 
       - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
-      - ${MONGO_HOST_DATA}/db:/data/db # MONGO_HOST_DATA is the path from drive root
+      - ${MONGO_HOST_DATA}/db:/data/db # MONGO_HOST_DATA is the path to the wanted db location
   redis:
     image: redis
     ports:
