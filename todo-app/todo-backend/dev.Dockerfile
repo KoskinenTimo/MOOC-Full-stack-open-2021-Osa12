@@ -6,6 +6,8 @@ COPY . .
 
 RUN npm install
 
+RUN npm install -g nodemon
+
 ENV DEBUG=playground:*
 
-CMD nodemon -L index.js
+CMD ["nodemon", "-L", "./bin/www"]
